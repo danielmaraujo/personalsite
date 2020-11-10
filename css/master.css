@@ -1,12 +1,18 @@
 body {
-  background-color: #f6f5f1;
   color: #556052;
+  zoom: 110%;
+  text-align: center;
+  background: rgb(244,236,218);
+  background: linear-gradient(0deg, rgba(244,236,218,1) 0%, rgba(241,239,232,1) 100%);
 }
 
 hr {
-  background-color: #16a596;
-  height: 1px;
-  width: 100%;
+  border-color: #16a596;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  height: 0px;
+  width: 3%;
 }
 
 h1 {
@@ -15,4 +21,13 @@ h1 {
 
 h3 {
   color: #39311d;
+}
+
+table, th, td{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #16a596;
 }
