@@ -1,3 +1,3 @@
 # personalsite
-A personal site created using only HTML.
+A simple personal site.
 Based on Angela Yu's Web Development Bootcamp.
