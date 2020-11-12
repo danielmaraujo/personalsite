@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #39311d;
+  font-size: 1.10rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.title {
+  font-family: 'Gabriela', serif;
+  color: #39311d;
+}
+
+.top-container {
+  background-color: rgb(244, 236, 218);
+  position: relative;
+  padding: 200px;
+  padding-top: 400px;
+}
+
+.green {
+  color: #16a596;
+}
+
+.dots {
+  border-style: dotted;
+  border-width: 5px 0 0 0;
+  border-color: #556052;
+  width: 3%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.skills {
+  margin: auto;
+}
+
+.skill-row {
+  display: inline-block;
+  margin: 50px;
+}
+
+a {
+  color: #556052;
+}
+
+/* COLORS #16a596  #39311d  rgb(244,236,218)  #556052*/
