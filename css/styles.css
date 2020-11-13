@@ -22,9 +22,9 @@ h2 {
 .top-container {
   background-color: rgb(244, 236, 218);
   position: relative;
-  padding: 200px;
-  padding-top: 400px;
+  padding: 15%;
 }
+
 
 .green {
   color: #16a596;
@@ -41,15 +41,32 @@ h2 {
 
 .skills {
   margin: auto;
+  margin-left: 30px;
+  display: inline-block;
 }
 
 .skill-row {
   display: inline-block;
-  margin: 50px;
+  margin: 35px;
 }
 
-a {
-  color: #556052;
+.sidebars{
+  border-style: solid;
+  border-color: #556052;
+  border-width: 0 1.7px;
+  padding: 0 55px;
+
 }
+
+.footer-link {
+  color: #556052;
+  text-align: left;
+}
+
+.icon{
+  filter: invert(16%) sepia(12%) saturate(1658%) hue-rotate(5deg) brightness(92%) contrast(89%);
+  margin: 20px 2px;
+}
+
 
 /* COLORS #16a596  #39311d  rgb(244,236,218)  #556052*/
