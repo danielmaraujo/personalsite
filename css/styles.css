@@ -17,12 +17,16 @@ h2 {
 .title {
   font-family: 'Gabriela', serif;
   color: #39311d;
+  position: relative;
+  margin-top: 375px;
 }
 
 .top-container {
   background-color: rgb(244, 236, 218);
   position: relative;
-  padding: 15%;
+  width: auto;
+  height: 750px;
+  padding: 10px;
 }
 
 
@@ -64,8 +68,22 @@ h2 {
 }
 
 .icon{
-  filter: invert(16%) sepia(12%) saturate(1658%) hue-rotate(5deg) brightness(92%) contrast(89%);
   margin: 20px 2px;
+  filter: invert(16%) sepia(12%) saturate(1658%) hue-rotate(5deg) brightness(92%) contrast(89%);
+}
+
+.language{
+  font-size: 0.7em;
+  text-align: left;
+  position: absolute;
+  color: #39311d;
+  left: 20px;
+}
+
+#languagelink{
+  position: absolute;
+  bottom: 13px;
+  left: 30px;
 }
 
 
