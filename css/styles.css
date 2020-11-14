@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-size: 2.8rem;
+  display: inline-block;
 }
 
 h2 {
@@ -44,8 +45,7 @@ h2 {
 }
 
 .skills {
-  margin: auto;
-  margin-left: 30px;
+  margin: 50px auto 50px 30px;
   display: inline-block;
 }
 
@@ -62,13 +62,20 @@ h2 {
 
 }
 
+.bottom-container{
+  background-color: rgb(244, 236, 218);
+  padding: 30px;
+}
+
+.bottom-text{
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
 .footer-link {
   color: #556052;
   text-align: left;
-}
-
-.icon{
-  margin: 20px 2px;
+  margin: 50px 2px;
   filter: invert(16%) sepia(12%) saturate(1658%) hue-rotate(5deg) brightness(92%) contrast(89%);
 }
 
@@ -87,5 +94,32 @@ h2 {
   color: #16a596;
 }
 
+.contactbutton {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #F4ECDA;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 15px;
+  background-color: #D18162;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contactbutton:hover {
+  background: #D18162;
+  border: solid #39311D 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact-text{
+  margin: 50px;
+}
 
 /* COLORS #16a596  #39311d  rgb(244,236,218)  #556052*/
